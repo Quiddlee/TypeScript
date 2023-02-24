@@ -1,18 +1,4 @@
-function add(n1: number, n2: number) {
-    return n1 + n2;
-}
+let userInput: unknown;
 
-function printResult(num: number): void {
-    console.log('Result' + num);
-}
-
-printResult(add(5, 12));
-
-let combineValues: (n1: number, n2: number) => number;
-
-combineValues = add;
-// combineValues = 5;
-
-console.log(combineValues(8, 8));
-
-printResult(add(5, 12));
+userInput = 5;
+userInput = 'Bogdan';
