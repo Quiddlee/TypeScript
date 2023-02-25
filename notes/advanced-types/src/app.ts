@@ -31,7 +31,7 @@ function add(a: Combinable, b: Combinable) {
     if (typeof a === 'string' || typeof b === 'string') {
         return a.toString() + b.toString();
     }
-    return a + b;   
+    return a + b;
 }
 
 const result = add('Max', 'Schwarz');
